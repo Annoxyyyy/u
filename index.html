@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="wf-sofiapro-n7-active wf-sofiapro-n3-active wf-sofiapro-n4-active wf-active">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo_white.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b89304458c.js" 
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.hislide.js" ></script>
+    <script src="js/albumDataObject.js"></script>
+    <script src="js/footer.js"></script>
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/reference.css">
+    <title>Studio 42</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#home">
+            <img class="logo" src="img/logo_white.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#reference">REFERENCES</a>
+            <a href="#service">SERVICE</a>
+            <a href="#map">CONTACT</a>
+        </nav>
+        <button type="button" class="icon" onclick="resizeNavbar()"> 
+            <div></div>
+            <div></div>
+            <div></div> 
+        </button>
+    </header>
+    <script src="js/header.js"></script>
+    <!-- HOME -->
+    <div class="home" id="home">
+        <!-- SLIDESHOW -->
+        <div class="slideshow">
+            <div class="dot"></div>
+            <div class="slideshow-item">
+                <img src="img/studio1.jpg" alt="studio_1">
+                <div class="slideshow-item-text">
+                   
+                </div>
+            </div>
+            <div class="slideshow-item">
+                <img src="img/studio2.jpg" alt="studio_2">
+                <div class="slideshow-item-text">
+                    
+                </div>
+            </div>
+            <div class="slideshow-item">
+                <img src="img/studio3.jpg" alt="studio_3">
+              
+            </div>
+        </div>
+    </div>
+            
+    <!-- HOME -->
+   
+    <!-- ABOUT -->
+    <div class="about" id="about">
+        <div class="dot"></div>
+        <img src="img/hardware_1.jpg" alt="Hardware 1">
+        <div>
+            <div>
+                 <h2>Behind the studio doors</h2>
+                <h3>Record your own sounds</h3>
+                <p>
+                    <nobr>
+                        Are you looking for a studio that is comfortable, 
+                    </nobr>
+                    <nobr>
+                        comfortable and full of great equipment?
+                    </nobr><br/>
+                    <nobr>
+                        Then Studio42 has everything you need. With us you get 
+                    </nobr>
+                    <nobr>
+                        everything from a single source.
+                    </nobr><br/>
+                </p>
+                <p>
+                    <nobr>
+                        Our customers have access to all studio areas and a range of 
+                    </nobr>
+                    <nobr>
+                        the best recording equipment
+                    </nobr><br/>
+                    <nobr>
+                        available, such as mixing consoles, computers, microphones 
+                    </nobr>
+                    <nobr>
+                        and more. No matter what style of music,
+                    </nobr><br/>
+                    <nobr>
+                        ur professional recording studio
+                    </nobr>
+                    <nobr>
+                        will bring your sound to life.
+                    </nobr><br/>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- REFERENCES -->
+    <div class="reference" id="reference">
+        <div class="background"></div>
+        <h2>Produktionen</h2>
+        <div class="slide hi-slide">
+            <div class="hi-prev"></div>
+            <ul id="slideList"></ul>
+            <div class="hi-next"></div>
+        </div>
+        <script src="js/albumData.js"></script>
+        <script type="application/javascript">
+            $('.slide').hiSlide();
+        </script>
+        <img src="img/hardware_4.jpg" alt="Hardware 3">
+    </div>
+    <!-- SERVICE -->
+    <div class="service" id="service">
+        <img src="img/hardware_2.jpg" alt="hardware_2">
+        <h2>What can we do for you? </h2>
+        <div class="serType">
+            <div>
+                <div>
+                    <i class="serSym fas fa-drum"></i>
+                    <h3>RECORDING</h3>
+                </div>
+                 <h6>
+                    In our studios we have the best acoustic conditions.<br/>
+                    Our competent team has experience in every musician.<br/>
+                    Last but not least, our analog mixer and high-quality <br/> microphones will give you the best results.
+                </h6>
+            </div>
+            <div>
+                <div>
+                    <i class="serSym far fa-file-audio"></i>
+                    <h3>EDITING</h3>
+                </div>
+                <h6>
+                    Only the right editing allows production to flourish.<br/>That's why we harmonize creativity and rhythm.<br/>In addition, our employees provide extensive experience</h6>
+            </div>
+            <div>
+                <div>
+                    <i class="serSym fas fa-sliders-h"></i>
+                    <h3>MIXING</h3>
+                </div>
+                <h6>
+                   For music to leave a strong and lasting impression,<br/> the production must sound balanced and exciting. <br/>To achieve this, the individual tracks must be mixed and edited with sensitivity<br/> and precision work.
+                </h6>
+            </div>
+            <div>
+                <div>
+                    <i class="serSym fas fa-compact-disc"></i>
+                    <h3>MASTERING</h3>
+                </div>
+                <h6>
+                    10% der Qualität einer Produktion macht das Mastering aus. <br/>Klingt nicht nach viel? Wenn Sie auf höchster Ebene Ihre Musik <br/>vertreiben wollen, ist das eine Menge. Jede Produktion wird so<br/>angepasst, dass diese auf dem Format das Maximum rausholt.
+                </h6>
+            </div>
+            <div>
+                <div>
+                    <i class="serSym fas fa-compact-disc"></i>
+                    <h3>MASTERING</h3>
+                </div>
+                <h6>
+                    10% der Qualität einer Produktion macht das Mastering aus. <br/>Klingt nicht nach viel? Wenn Sie auf höchster Ebene Ihre Musik <br/>vertreiben wollen, ist das eine Menge. Jede Produktion wird so<br/>angepasst, dass diese auf dem Format das Maximum rausholt.
+                </h6>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT -->
+  
+  
+    <!-- FOOTER -->
+    <footer>
+        <div class="contact">
+            <div class="info adress">
+                <div>
+                    <i class="symInfo fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                    <h4>KURDO´S PRODUKTION<br> MASTERING GmbH</h4>
+                    <h5>HELSINKI</h5>
+                    <h5>012467</h5>
+                    <h5>FINLAND</h5>
+                </div>
+            </div>
+            <div class="info phone">
+                <div>
+                    <i class="symInfo fas fa-phone"></i>
+                </div>
+                <div>
+                    <h4>Phone</h4>
+                    <h5 style="color: #41B6B6">041 572 5872</h5>
+                </div>
+            </div>
+            <div class="info email">
+                <div>
+                    <i class="symInfo far fa-envelope"></i>
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <h5 style="color: #41B6B6">kurdos.produktion@gmail.com</h5>
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+</body>
+</html>
